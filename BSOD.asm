@@ -10,4 +10,5 @@ main:
 
 section '.idata' data readable import
 
-library kernel32, 'kernel32.dll'
+library kernel32, 'kernel32.dll', \
+        ntdll, 'ntdll.dll'
