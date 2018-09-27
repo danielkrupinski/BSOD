@@ -7,6 +7,7 @@ section '.text' code executable
 
 main:
 lea eax, [esp + 20]
+invoke RtlAdjustPrivilege, 19, TRUE, FALSE, eax
 
 section '.idata' data readable import
 
