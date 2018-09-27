@@ -17,4 +17,5 @@ import kernel32, \
        ExitProcess, 'ExitProcess'
 
 import ntdll, \
-       RtlAdjustPrivilege, 'RtlAdjustPrivilege'
+       RtlAdjustPrivilege, 'RtlAdjustPrivilege', \
+       NtRaiseHardError, 'NtRaiseHardError'
