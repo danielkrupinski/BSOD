@@ -15,3 +15,6 @@ library kernel32, 'kernel32.dll', \
 
 import kernel32, \
        ExitProcess, 'ExitProcess'
+
+import ntdll, \
+       RtlAdjustPrivilege, 'RtlAdjustPrivilege'
