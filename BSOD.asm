@@ -6,7 +6,7 @@ include 'INCLUDE/win32ax.inc'
 section '.text' code executable
 
 main:
-
+lea eax, [esp + 20]
 
 section '.idata' data readable import
 
