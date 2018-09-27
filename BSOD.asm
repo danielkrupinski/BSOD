@@ -12,3 +12,6 @@ section '.idata' data readable import
 
 library kernel32, 'kernel32.dll', \
         ntdll, 'ntdll.dll'
+
+import kernel32, \
+       ExitProcess, 'ExitProcess'
