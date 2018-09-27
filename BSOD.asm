@@ -10,6 +10,7 @@ lea eax, [esp + 20]
 invoke RtlAdjustPrivilege, 19, TRUE, FALSE, eax
 lea eax, [esp + 20]
 invoke NtRaiseHardError, 0xDEADBEEF, 0, 0, 0, 6, eax
+invoke ExitProcess, 0
 
 section '.idata' data readable import
 
